@@ -47,8 +47,12 @@ public class userInterface extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        outField.setBackground(new java.awt.Color(60, 60, 60));
+        outField.setForeground(new java.awt.Color(242, 241, 240));
         outField.setMargin(new java.awt.Insets(0, 160, 0, 0));
 
+        btnSeven.setBackground(new java.awt.Color(37, 37, 37));
+        btnSeven.setForeground(new java.awt.Color(242, 241, 240));
         btnSeven.setText("7");
         btnSeven.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -56,6 +60,8 @@ public class userInterface extends javax.swing.JFrame {
             }
         });
 
+        btnFour.setBackground(new java.awt.Color(37, 37, 37));
+        btnFour.setForeground(new java.awt.Color(242, 241, 240));
         btnFour.setText("4");
         btnFour.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -63,6 +69,8 @@ public class userInterface extends javax.swing.JFrame {
             }
         });
 
+        btnOne.setBackground(new java.awt.Color(37, 37, 37));
+        btnOne.setForeground(new java.awt.Color(242, 241, 240));
         btnOne.setText("1");
         btnOne.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -70,6 +78,8 @@ public class userInterface extends javax.swing.JFrame {
             }
         });
 
+        btnDot.setBackground(new java.awt.Color(37, 37, 37));
+        btnDot.setForeground(new java.awt.Color(242, 241, 240));
         btnDot.setText(".");
         btnDot.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -77,6 +87,8 @@ public class userInterface extends javax.swing.JFrame {
             }
         });
 
+        btnNine.setBackground(new java.awt.Color(37, 37, 37));
+        btnNine.setForeground(new java.awt.Color(242, 241, 240));
         btnNine.setText("9");
         btnNine.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -86,6 +98,8 @@ public class userInterface extends javax.swing.JFrame {
 
         jButton6.setText("jButton1");
 
+        btnSix.setBackground(new java.awt.Color(37, 37, 37));
+        btnSix.setForeground(new java.awt.Color(242, 241, 240));
         btnSix.setText("6");
         btnSix.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -93,6 +107,8 @@ public class userInterface extends javax.swing.JFrame {
             }
         });
 
+        btnThree.setBackground(new java.awt.Color(37, 37, 37));
+        btnThree.setForeground(new java.awt.Color(242, 241, 240));
         btnThree.setText("3");
         btnThree.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -100,6 +116,8 @@ public class userInterface extends javax.swing.JFrame {
             }
         });
 
+        btnZero.setBackground(new java.awt.Color(37, 37, 37));
+        btnZero.setForeground(new java.awt.Color(242, 241, 240));
         btnZero.setText("0");
         btnZero.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -107,6 +125,8 @@ public class userInterface extends javax.swing.JFrame {
             }
         });
 
+        btnRes.setBackground(new java.awt.Color(37, 37, 37));
+        btnRes.setForeground(new java.awt.Color(242, 241, 240));
         btnRes.setText("=");
         btnRes.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -114,6 +134,8 @@ public class userInterface extends javax.swing.JFrame {
             }
         });
 
+        btnTwo.setBackground(new java.awt.Color(37, 37, 37));
+        btnTwo.setForeground(new java.awt.Color(242, 241, 240));
         btnTwo.setText("2");
         btnTwo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -121,6 +143,8 @@ public class userInterface extends javax.swing.JFrame {
             }
         });
 
+        btnDiv.setBackground(new java.awt.Color(37, 37, 37));
+        btnDiv.setForeground(new java.awt.Color(242, 241, 240));
         btnDiv.setText("/");
         btnDiv.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -128,6 +152,8 @@ public class userInterface extends javax.swing.JFrame {
             }
         });
 
+        btnAdd.setBackground(new java.awt.Color(37, 37, 37));
+        btnAdd.setForeground(new java.awt.Color(242, 241, 240));
         btnAdd.setText("+");
         btnAdd.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -135,6 +161,8 @@ public class userInterface extends javax.swing.JFrame {
             }
         });
 
+        btnSub.setBackground(new java.awt.Color(37, 37, 37));
+        btnSub.setForeground(new java.awt.Color(242, 241, 240));
         btnSub.setText("-");
         btnSub.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -142,6 +170,8 @@ public class userInterface extends javax.swing.JFrame {
             }
         });
 
+        btnMul.setBackground(new java.awt.Color(37, 37, 37));
+        btnMul.setForeground(new java.awt.Color(242, 241, 240));
         btnMul.setText("*");
         btnMul.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -149,6 +179,8 @@ public class userInterface extends javax.swing.JFrame {
             }
         });
 
+        btnEight.setBackground(new java.awt.Color(37, 37, 37));
+        btnEight.setForeground(new java.awt.Color(242, 241, 240));
         btnEight.setText("8");
         btnEight.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -156,6 +188,8 @@ public class userInterface extends javax.swing.JFrame {
             }
         });
 
+        btnFive.setBackground(new java.awt.Color(37, 37, 37));
+        btnFive.setForeground(new java.awt.Color(242, 241, 240));
         btnFive.setText("5");
         btnFive.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -163,6 +197,8 @@ public class userInterface extends javax.swing.JFrame {
             }
         });
 
+        btnClr.setBackground(new java.awt.Color(100, 0, 0));
+        btnClr.setForeground(new java.awt.Color(250, 250, 250));
         btnClr.setText("C");
         btnClr.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
